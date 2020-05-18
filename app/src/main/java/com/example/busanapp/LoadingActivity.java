@@ -134,6 +134,7 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
         return true;
     }
 
+
     @Override
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
